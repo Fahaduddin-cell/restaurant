@@ -22,12 +22,6 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav mr-auto">
             <li className="nav-item ">
-              <Link to="/restaurant" className="nav-link" href="#">
-                All Restaurants
-              </Link>
-            </li>
-
-            <li className="nav-item ">
               <Link to="/login" className="nav-link" href="#">
                 Login Here
               </Link>

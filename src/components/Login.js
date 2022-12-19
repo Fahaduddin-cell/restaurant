@@ -1,7 +1,11 @@
 import React, { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
+
 import { Link } from "react-router-dom";
 
 const Login = () => {
+  const navigate = useNavigate();
+
   const [info, setInfo] = useState({
     username: "",
     password: "",
@@ -13,8 +17,8 @@ const Login = () => {
     }
   }, [info]);
 
-  const [nameErr, setnameErr] = useState(false);
-  const [passErr, setpassErr] = useState(false);
+  const [nameErr, setnameErr] = useState(true);
+  const [passErr, setpassErr] = useState(true);
   const [isDisabled, setIsDisabled] = useState(true);
 
   const changeHandeler = (e) => {
@@ -22,6 +26,7 @@ const Login = () => {
   };
 
   const submitHandeler = (e) => {
+    // debugger;
     e.preventDefault();
 
     let CheckName = /^[A-Za-z ]{3,30}$/;
@@ -39,6 +44,9 @@ const Login = () => {
     } else {
       setpassErr(true);
     }
+    if (!nameErr && !passErr) {
+      navigate("/restaurant");
+    }
   };
 
   return (
@@ -50,8 +58,10 @@ const Login = () => {
             <div className="col-md-6">
               <div className="card mt-4">
                 <div className="card-body">
-                  <form action="" onSubmit={submitHandeler}>
-                    <h1 className=" text-center">Login Here</h1>
+                  <form onSubmit={submitHandeler}>
+                    <h1 className=" text-center">
+                      Plese Login for Restaurants
+                    </h1>
 
                     <div className="form-group mt-4">
                       <label className="form-label" htmlFor="">
@@ -61,16 +71,14 @@ const Login = () => {
                         value={info.username}
                         name="username"
                         onChange={changeHandeler}
-                        className={
-                          nameErr
-                            ? "form-control border-danger"
-                            : "form-control"
-                        }
+                        className={nameErr ? "form-control" : "form-control"}
                         type="text"
                         placeholder="user name"
                       />
                       <span className="text-danger">
-                        {nameErr ? "Invalid username" : ""}
+                        {nameErr
+                          ? "Username must be Min 3 and Max 30 characters"
+                          : ""}
                       </span>
                     </div>
 
@@ -82,17 +90,15 @@ const Login = () => {
                         value={info.password}
                         name="password"
                         onChange={changeHandeler}
-                        className={
-                          passErr
-                            ? "form-control border-danger"
-                            : "form-control"
-                        }
+                        className={passErr ? "form-control " : "form-control"}
                         type="password"
                         placeholder="password"
                       />
 
                       <span className="text-danger">
-                        {passErr ? "Invalid password" : ""}
+                        {passErr
+                          ? "Password should contain one special char., one caps and min. length 8"
+                          : ""}
                       </span>
                     </div>
 
@@ -104,7 +110,7 @@ const Login = () => {
                             type="submit"
                             className="btn btn-outline-success form-control"
                           >
-                            Sign in
+                            Log In
                           </button>
                         </div>
 
