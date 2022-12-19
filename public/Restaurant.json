@@ -1,0 +1,126 @@
+[
+  {
+    "id": 1,
+    "name": "Golden Restaurant",
+    "address": { "street": "Airport road", "city": "Nanded", "pncode": 431605 },
+    "phone": "02462-61029",
+    "img_url": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlibtorb-4.0.3&ixidtoMnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&autotoformat&fittocrop&wto870&qto80",
+    "timing": "10:00 am to 10:00 pm"
+  },
+  {
+    "id": 2,
+    "name": "Bharat Restaurant",
+    "address": { "street": "Naka road", "city": "Parbhani", "pncode": 431606 },
+    "phone": "02462-61019",
+    "img_url": "https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "timing": "10:00 am to 10:00 pm"
+  },
+  {
+    "id": 3,
+    "name": "India Restaurant",
+    "address": { "street": "Ali Road", "city": "Aurangabad", "pncode": 431607 },
+    "phone": "02462-61011",
+    "img_url": "https://images.pexels.com/photos/1850595/pexels-photo-1850595.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "timing": "10:00 am to 10:00 pm"
+  },
+  {
+    "id": 4,
+    "name": "Hyderabad Restaurant",
+    "address": { "street": "Shyaam Road", "city": "Mumbai", "pncode": 431608 },
+    "phone": "02462-61013",
+    "img_url": "https://assets.cntraveller.in/photos/62975dd66a6d562435831f90/16:9/w_1920,h_1080,c_limit/new-restaurants-delhi-lead.jpg",
+    "timing": "10:00 am to 10:00 pm"
+  },
+  {
+    "id": 5,
+    "name": "Mohab Restaurant",
+    "address": { "street": "Asra nagar", "city": "Nanded", "pncode": 431609 },
+    "phone": "02462-61014",
+    "img_url": "https://images.pexels.com/photos/761854/pexels-photo-761854.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "timing": "10:00 am to 10:00 pm"
+  },
+  {
+    "id": 6,
+    "name": "Mehdi Restaurant",
+    "address": {
+      "street": "Mehdipatnam X Road",
+      "city": "Hyderabad",
+      "pncode": 431601
+    },
+    "phone": "02462-61015",
+    "img_url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Barbieri_-_ViaSophia25668.jpg",
+    "timing": "10:00 am to 10:00 pm"
+  },
+  {
+    "id": 7,
+    "name": "Charminar Restaurant",
+    "address": {
+      "street": "Charminar Road",
+      "city": "Hyderabad",
+      "pncode": 431612
+    },
+    "phone": "02462-61016",
+    "img_url": "https://img.etimg.com/thumb/width-1200,height-900,imgsize-829462,resizemode-1,msid-82666514/industry/services/hotels-/-restaurants/staggered-lockdowns-start-to-bite-battered-restaurants.jpg",
+    "timing": "10:00 am to 10:00 pm"
+  },
+  {
+    "id": 8,
+    "name": "Foody Restaurant",
+    "address": {
+      "street": "Necklace Road",
+      "city": "Ahmedabad",
+      "pncode": 431613
+    },
+    "phone": "02462-61028",
+    "img_url": "https://images.pexels.com/photos/3201920/pexels-photo-3201920.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "timing": "10:00 am to 10:00 pm"
+  },
+  {
+    "id": 9,
+    "name": "Khan Restaurant",
+    "address": {
+      "street": "Hitech City",
+      "city": "Hyderebad",
+      "pncode": 431613
+    },
+    "phone": "02462-61028",
+    "img_url": "https://img.freepik.com/free-photo/happy-waiter-serving-food-group-cheerful-friends-pub_637285-12525.jpg?wto2000",
+    "timing": "10:00 am to 10:00 pm"
+  },
+  {
+    "id": 10,
+    "name": "Madina Restaurant",
+    "address": {
+      "street": "Banjara Hills",
+      "city": "Hyderabad",
+      "pncode": 431613
+    },
+    "phone": "02462-61028",
+    "img_url": "https://images.pexels.com/photos/1861785/pexels-photo-1861785.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "timing": "10:00 am to 10:00 pm"
+  },
+  {
+    "id": 11,
+    "name": "Prince Restaurant",
+    "address": {
+      "street": "Asef Nagar",
+      "city": "Secundarbad",
+      "pncode": 431613
+    },
+    "phone": "02462-61028",
+    "img_url": "https://techcrunch.com/wp-content/uploads/2015/08/shutterstock_237882754.jpg",
+    "timing": "10:00 am to 10:00 pm"
+  },
+  {
+    "id": 12,
+    "name": "Arbab Restaurant",
+    "address": {
+      "street": "Railway station Road",
+      "city": "Hyderabad",
+      "pncode": 431613
+    },
+    "phone": "02462-61028",
+    "img_url": "https://imgmedia.lbb.in/media/2019/12/5e098fae2335a92f5b3536f3_1577684910704.jpg",
+    "timing": "10:00 am to 10:00 pm"
+  }
+]
